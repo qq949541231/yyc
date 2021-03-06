@@ -1,0 +1,3040 @@
+---------------------------------------------------------------
+
+[2020-10-18T02:34:44+08:00] 127.0.0.1 GET yyc.edzero.com/
+[è¿è¡Œæ—¶é—´ï¼š0.028077s] [åžåçŽ‡ï¼š35.62req/s] [å†…å­˜æ¶ˆè€—ï¼š2,032.68kb] [æ–‡ä»¶åŠ è½½ï¼š83]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-10-18T02:36:08+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/test
+[è¿è¡Œæ—¶é—´ï¼š0.026896s] [åžåçŽ‡ï¼š37.18req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.13kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/test' => '',
+  'version' => 'JD',
+  'method' => 'test',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: test[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T02:36:16+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.316283s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.56kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:36:19+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.351174s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.56kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:36:38+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.362049s] [åžåçŽ‡ï¼š0.42req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:05+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.352521s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:07+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.323896s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:08+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.366727s] [åžåçŽ‡ï¼š0.42req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:30+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.363635s] [åžåçŽ‡ï¼š0.42req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:31+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.299978s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:35+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.315002s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:45+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.361942s] [åžåçŽ‡ï¼š0.42req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:38:46+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.316549s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:39:07+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.290971s] [åžåçŽ‡ï¼š0.44req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:39:11+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.295755s] [åžåçŽ‡ï¼š0.44req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:39:22+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.303461s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:39:30+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.313262s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:41:50+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.329592s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:41:54+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.308525s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:42:27+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.327496s] [åžåçŽ‡ï¼š0.43req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:42:32+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.568311s] [åžåçŽ‡ï¼š0.39req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:43:56+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.367766s] [åžåçŽ‡ï¼š0.42req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T02:44:36+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.359700s] [åžåçŽ‡ï¼š0.42req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:15:10+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.695205s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:15:18+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.697100s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:17:26+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.575748s] [åžåçŽ‡ï¼š0.39req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:19:53+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.604695s] [åžåçŽ‡ï¼š0.38req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:19:58+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.577445s] [åžåçŽ‡ï¼š0.39req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:21:12+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.698770s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:21:17+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.695450s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:21:43+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.637019s] [åžåçŽ‡ï¼š0.38req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:22:06+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.704942s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:22:14+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.589872s] [åžåçŽ‡ï¼š0.39req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:22:21+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.524443s] [åžåçŽ‡ï¼š0.40req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:23:01+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.619045s] [åžåçŽ‡ï¼š0.38req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:25:24+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.681337s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:27:22+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š3.565675s] [åžåçŽ‡ï¼š0.28req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:27:50+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.840344s] [åžåçŽ‡ï¼š0.35req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:28:08+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.667016s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:28:22+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.528483s] [åžåçŽ‡ï¼š0.40req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:28:46+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.612614s] [åžåçŽ‡ï¼š0.38req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:28:49+08:00] 127.0.0.1 GET yyc.edzero.com/
+[è¿è¡Œæ—¶é—´ï¼š0.041711s] [åžåçŽ‡ï¼š23.97req/s] [å†…å­˜æ¶ˆè€—ï¼š2,032.68kb] [æ–‡ä»¶åŠ è½½ï¼š83]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-10-18T10:28:51+08:00] 127.0.0.1 GET yyc.edzero.com/
+[è¿è¡Œæ—¶é—´ï¼š0.038504s] [åžåçŽ‡ï¼š25.97req/s] [å†…å­˜æ¶ˆè€—ï¼š2,032.74kb] [æ–‡ä»¶åŠ è½½ï¼š83]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-10-18T10:29:04+08:00] 127.0.0.1 GET yyc.edzero.com/
+[è¿è¡Œæ—¶é—´ï¼š0.036407s] [åžåçŽ‡ï¼š27.47req/s] [å†…å­˜æ¶ˆè€—ï¼š2,032.74kb] [æ–‡ä»¶åŠ è½½ï¼š83]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-10-18T10:29:18+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.706931s] [åžåçŽ‡ï¼š0.37req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.56kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:29:22+08:00] 127.0.0.1 GET yyc.edzero.com/entrance
+[è¿è¡Œæ—¶é—´ï¼š0.071966s] [åžåçŽ‡ï¼š13.90req/s] [å†…å­˜æ¶ˆè€—ï¼š2,228.52kb] [æ–‡ä»¶åŠ è½½ï¼š97]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance' => '',
+)
+---------------------------------------------------------------
+
+[2020-10-18T10:30:05+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/baojie/no/indexBanner?type=2&code=%E6%92%92%E5%A4%A7%E8%8B%8F%E6%89%93%E6%92%92
+[è¿è¡Œæ—¶é—´ï¼š0.048603s] [åžåçŽ‡ï¼š20.57req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.29kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'baojie',
+    'method' => 'indexBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/baojie/no/indexBanner' => '',
+  'type' => '2',
+  'code' => 'æ’’å¤§è‹æ‰“æ’’',
+  'version' => 'baojie',
+  'method' => 'indexBanner',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: baojie[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:40]
+---------------------------------------------------------------
+
+[2020-10-18T10:30:14+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/indexBanner?type=2&code=%E6%92%92%E5%A4%A7%E8%8B%8F%E6%89%93%E6%92%92
+[è¿è¡Œæ—¶é—´ï¼š0.061976s] [åžåçŽ‡ï¼š16.14req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.29kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'indexBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/indexBanner' => '',
+  'type' => '2',
+  'code' => 'æ’’å¤§è‹æ‰“æ’’',
+  'version' => 'JD',
+  'method' => 'indexBanner',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: indexBanner[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:30:24+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š2.637427s] [åžåçŽ‡ï¼š0.38req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.56kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:30:52+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/select
+[è¿è¡Œæ—¶é—´ï¼š3.075695s] [åžåçŽ‡ï¼š0.33req/s] [å†…å­˜æ¶ˆè€—ï¼š3,464.63kb] [æ–‡ä»¶åŠ è½½ï¼š118]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/select' => '',
+  'version' => 'JD',
+  'method' => 'select',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+[ error ] [1]Uncaught InvalidArgumentException: variable type errorï¼š boolean in D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403
+Stack trace:
+#0 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php(128): think\Response->getContent()
+#1 D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Error.php(56): think\Response->send()
+#2 [internal function]: think\Error::appException(Object(PDOException))
+#3 {main}
+  thrown[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-10-18T10:31:14+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.056404s] [åžåçŽ‡ï¼š17.73req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.20kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:31:47+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.038667s] [åžåçŽ‡ï¼š25.86req/s] [å†…å­˜æ¶ˆè€—ï¼š2,039.20kb] [æ–‡ä»¶åŠ è½½ï¼š84]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/<method>',
+  'route' => 'entrance/Entrance/entrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'JwtApi',
+        1 => NULL,
+      ),
+    ),
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+---------------------------------------------------------------
+
+[2020-10-18T10:31:53+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.049388s] [åžåçŽ‡ï¼š20.25req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.20kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:31:59+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.048724s] [åžåçŽ‡ï¼š20.52req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:00+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.049062s] [åžåçŽ‡ï¼š20.38req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:00+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.042204s] [åžåçŽ‡ï¼š23.69req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:01+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.043525s] [åžåçŽ‡ï¼š22.98req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:01+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.047872s] [åžåçŽ‡ï¼š20.89req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:02+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.043987s] [åžåçŽ‡ï¼š22.73req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:02+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.043333s] [åžåçŽ‡ï¼š23.08req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:32:03+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.045240s] [åžåçŽ‡ï¼š22.10req/s] [å†…å­˜æ¶ˆè€—ï¼š2,220.26kb] [æ–‡ä»¶åŠ è½½ï¼š98]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: wx_select[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-10-18T10:34:02+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/wx_select
+[è¿è¡Œæ—¶é—´ï¼š0.048811s] [åžåçŽ‡ï¼š20.49req/s] [å†…å­˜æ¶ˆè€—ï¼š2,123.33kb] [æ–‡ä»¶åŠ è½½ï¼š91]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/wx_select' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+---------------------------------------------------------------
+
+[2020-10-18T10:37:03+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/selectBanner
+[è¿è¡Œæ—¶é—´ï¼š0.081478s] [åžåçŽ‡ï¼š12.27req/s] [å†…å­˜æ¶ˆè€—ï¼š3,386.47kb] [æ–‡ä»¶åŠ è½½ï¼š114]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'selectBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/selectBanner' => '',
+  'version' => 'JD',
+  'method' => 'selectBanner',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'yys'[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+
+[2020-10-18T10:37:37+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/selectBanner
+[è¿è¡Œæ—¶é—´ï¼š0.092115s] [åžåçŽ‡ï¼š10.86req/s] [å†…å­˜æ¶ˆè€—ï¼š3,420.11kb] [æ–‡ä»¶åŠ è½½ï¼š117]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'selectBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/selectBanner' => '',
+  'version' => 'JD',
+  'method' => 'selectBanner',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012112s ] mysql:host=127.0.0.1;port=3306;dbname=yyc;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yyc.banner' doesn't exist[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-10-18T10:37:55+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/selectBanner
+[è¿è¡Œæ—¶é—´ï¼š0.096157s] [åžåçŽ‡ï¼š10.40req/s] [å†…å­˜æ¶ˆè€—ï¼š3,420.11kb] [æ–‡ä»¶åŠ è½½ï¼š117]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'selectBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/selectBanner' => '',
+  'version' => 'JD',
+  'method' => 'selectBanner',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010443s ] mysql:host=127.0.0.1;port=3306;dbname=yyc;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yyc.yycbanner' doesn't exist[D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-10-18T10:38:05+08:00] 127.0.0.1 GET yyc.edzero.com/entrance/JD/no/selectBanner
+[è¿è¡Œæ—¶é—´ï¼š0.081663s] [åžåçŽ‡ï¼š12.25req/s] [å†…å­˜æ¶ˆè€—ï¼š3,331.70kb] [æ–‡ä»¶åŠ è½½ï¼š105]
+[ info ] [ LANG ] D:\EnvironmentalScience\PhpStudy\PHPTutorial\WWW\ThinkPhP\RapidDevelopment\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'selectBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yyc.edzero.com',
+)
+[ info ] [ PARAM ] array (
+  '/entrance/JD/no/selectBanner' => '',
+  'version' => 'JD',
+  'method' => 'selectBanner',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001309s ] mysql:host=127.0.0.1;port=3306;dbname=yyc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.013920s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` [ RunTime:0.000485s ]

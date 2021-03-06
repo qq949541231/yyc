@@ -1,0 +1,1184 @@
+---------------------------------------------------------------
+
+[2020-11-10T16:48:36+08:00] ::1 POST localhost/entrance/JD/no/role_select
+[运行时间：0.889511s] [吞吐率：1.12req/s] [内存消耗：4,116.52kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'role_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'role_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.156433s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_role` [ RunTime:0.088590s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_role` LIMIT 0,5 [ RunTime:0.086514s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_role` [ RunTime:0.170507s ]
+---------------------------------------------------------------
+
+[2020-11-10T16:48:39+08:00] ::1 POST localhost/entrance/JD/no/order_select
+[运行时间：0.605656s] [吞吐率：1.65req/s] [内存消耗：4,125.64kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'admin',
+  'version' => 'JD',
+  'method' => 'order_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132974s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.090847s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_order` LIMIT 0,5 [ RunTime:0.126558s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_order` [ RunTime:0.204862s ]
+---------------------------------------------------------------
+
+[2020-11-10T16:48:40+08:00] ::1 POST localhost/entrance/JD/no/role_select
+[运行时间：0.622203s] [吞吐率：1.61req/s] [内存消耗：4,116.53kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'role_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'role_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127664s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_role` [ RunTime:0.090923s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_role` LIMIT 0,5 [ RunTime:0.089744s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_role` [ RunTime:0.261440s ]
+---------------------------------------------------------------
+
+[2020-11-10T16:48:48+08:00] ::1 POST localhost/entrance/JD/no/banner_select
+[运行时间：0.675923s] [吞吐率：1.48req/s] [内存消耗：4,118.34kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'banner_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.154925s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.199433s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` LIMIT 0,5 [ RunTime:0.087675s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_banner` [ RunTime:0.183219s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:33:58+08:00] ::1 POST localhost/entrance/JD/no/login
+[运行时间：2.023887s] [吞吐率：0.49req/s] [内存消耗：4,066.31kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '31',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '1231232',
+  'version' => 'JD',
+  'method' => 'login',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.154007s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.105203s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` WHERE  `username` = 'admin'  AND `password` = '1231232' LIMIT 1 [ RunTime:0.123517s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:04+08:00] ::1 POST localhost/entrance/JD/no/login
+[运行时间：0.424970s] [吞吐率：2.35req/s] [内存消耗：4,066.74kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'version' => 'JD',
+  'method' => 'login',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.166906s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.100612s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` WHERE  `username` = 'admin'  AND `password` = '123123' LIMIT 1 [ RunTime:0.106201s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:13+08:00] ::1 POST localhost/entrance/JD/no/user_select
+[运行时间：0.754060s] [吞吐率：1.33req/s] [内存消耗：4,119.09kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'user_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'user_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.163616s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.108330s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_user` LIMIT 0,5 [ RunTime:0.132736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` [ RunTime:0.229305s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:13+08:00] ::1 POST localhost/entrance/JD/no/order_select
+[运行时间：0.608858s] [吞吐率：1.64req/s] [内存消耗：4,125.66kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'admin',
+  'version' => 'JD',
+  'method' => 'order_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121520s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.096778s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_order` LIMIT 0,5 [ RunTime:0.100372s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_order` [ RunTime:0.195841s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:14+08:00] ::1 POST localhost/entrance/JD/no/user_select
+[运行时间：0.582557s] [吞吐率：1.72req/s] [内存消耗：4,119.09kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'user_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'user_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141793s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.086908s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_user` LIMIT 0,5 [ RunTime:0.086815s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` [ RunTime:0.210549s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:16+08:00] ::1 POST localhost/entrance/JD/no/banner_select
+[运行时间：0.664118s] [吞吐率：1.51req/s] [内存消耗：4,118.36kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'banner_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160983s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.093686s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` LIMIT 0,5 [ RunTime:0.088862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_banner` [ RunTime:0.239357s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:19+08:00] ::1 POST localhost/entrance/JD/no/banner_find
+[运行时间：0.446584s] [吞吐率：2.24req/s] [内存消耗：4,060.23kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '21',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_find',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128659s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.092519s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.093636s ]
+[ sql ] [ SQL ] SELECT `status` FROM `yyc_banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.079888s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:42+08:00] ::1 POST localhost/entrance/JD/no/banner_update
+[运行时间：0.433192s] [吞吐率：2.31req/s] [内存消耗：4,031.55kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '232',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'name' => '就这？',
+  'url' => 'http://upload.dreamgotrue.cn/2020/11/10/caeb14423417f.jpg',
+  'status' => '1',
+  'image' => '',
+  'create_time' => '2020-10-21 21:01:39',
+  'delete_time' => '2020-10-21 21:01:42',
+  'swit' => 'true',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_update',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129449s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.101477s ]
+[ sql ] [ SQL ] UPDATE `yyc_banner`  SET `name` = '就这？' , `url` = 'http://upload.dreamgotrue.cn/2020/11/10/caeb14423417f.jpg' , `status` = '1'  WHERE  `id` = 1 [ RunTime:0.151408s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:43+08:00] ::1 POST localhost/entrance/JD/no/banner_select
+[运行时间：0.592907s] [吞吐率：1.69req/s] [内存消耗：4,118.36kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'banner_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140979s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.105451s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` LIMIT 0,5 [ RunTime:0.097605s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_banner` [ RunTime:0.198832s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:45+08:00] ::1 POST localhost/entrance/JD/no/banner_find
+[运行时间：0.459281s] [吞吐率：2.18req/s] [内存消耗：4,060.23kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '21',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_find',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137234s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.086011s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.109234s ]
+[ sql ] [ SQL ] SELECT `status` FROM `yyc_banner` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.076902s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:53+08:00] ::1 POST localhost/entrance/JD/no/banner_update
+[运行时间：0.469540s] [吞吐率：2.13req/s] [内存消耗：4,031.55kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '232',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'name' => '九折？',
+  'url' => 'http://upload.dreamgotrue.cn/2020/11/10/a3881b2c03f58.jpg',
+  'status' => '1',
+  'image' => '',
+  'create_time' => '2020-10-21 21:04:26',
+  'delete_time' => '2020-10-21 21:04:30',
+  'swit' => 'true',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_update',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148265s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.102384s ]
+[ sql ] [ SQL ] UPDATE `yyc_banner`  SET `name` = '九折？' , `url` = 'http://upload.dreamgotrue.cn/2020/11/10/a3881b2c03f58.jpg' , `status` = '1'  WHERE  `id` = 2 [ RunTime:0.168631s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:54+08:00] ::1 POST localhost/entrance/JD/no/banner_select
+[运行时间：0.604378s] [吞吐率：1.65req/s] [内存消耗：4,118.36kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'banner_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125127s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.088790s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` LIMIT 0,5 [ RunTime:0.083830s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_banner` [ RunTime:0.256192s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:34:57+08:00] ::1 POST localhost/entrance/JD/no/banner_find
+[运行时间：0.471043s] [吞吐率：2.12req/s] [内存消耗：4,060.23kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '21',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_find',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146177s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.092934s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.095447s ]
+[ sql ] [ SQL ] SELECT `status` FROM `yyc_banner` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.084700s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:35:04+08:00] ::1 POST localhost/entrance/JD/no/banner_update
+[运行时间：0.493144s] [吞吐率：2.03req/s] [内存消耗：4,031.55kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '232',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'name' => '！！！',
+  'url' => 'http://upload.dreamgotrue.cn/2020/11/10/54e1ba9d0c339.jpg',
+  'status' => '1',
+  'image' => '',
+  'create_time' => '2020-10-21 21:04:43',
+  'delete_time' => '2020-10-21 21:04:45',
+  'swit' => 'true',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_update',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.155786s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.093866s ]
+[ sql ] [ SQL ] UPDATE `yyc_banner`  SET `name` = '！！！' , `url` = 'http://upload.dreamgotrue.cn/2020/11/10/54e1ba9d0c339.jpg' , `status` = '1'  WHERE  `id` = 3 [ RunTime:0.193894s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:35:06+08:00] ::1 POST localhost/entrance/JD/no/banner_select
+[运行时间：0.861777s] [吞吐率：1.16req/s] [内存消耗：4,118.36kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'banner_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.179961s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.110393s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` LIMIT 0,5 [ RunTime:0.315267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_banner` [ RunTime:0.204694s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:37:07+08:00] ::1 POST localhost/entrance/JD/no/banner_select
+[运行时间：0.641908s] [吞吐率：1.56req/s] [内存消耗：4,118.36kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'banner_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131160s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.090707s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` LIMIT 0,5 [ RunTime:0.086895s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_banner` [ RunTime:0.257312s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:37:13+08:00] ::1 POST localhost/entrance/JD/no/banner_find
+[运行时间：0.434508s] [吞吐率：2.30req/s] [内存消耗：4,060.23kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '21',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_find',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133526s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.088789s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083869s ]
+[ sql ] [ SQL ] SELECT `status` FROM `yyc_banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.077832s ]
+---------------------------------------------------------------
+
+[2020-11-10T21:37:25+08:00] ::1 POST localhost/entrance/JD/no/banner_find
+[运行时间：0.486401s] [吞吐率：2.06req/s] [内存消耗：4,060.23kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'banner_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '21',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'tableName' => 'banner',
+  'version' => 'JD',
+  'method' => 'banner_find',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137679s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_banner` [ RunTime:0.081001s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.098469s ]
+[ sql ] [ SQL ] SELECT `status` FROM `yyc_banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090572s ]

@@ -1,0 +1,3991 @@
+---------------------------------------------------------------
+
+[2020-10-21T09:36:43+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.551477s] [吞吐率：1.81req/s] [内存消耗：3,178.46kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.198541s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.187141s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.110100s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:36:44+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.455688s] [吞吐率：2.19req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.154582s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.115185s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.144424s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:36:46+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.635770s] [吞吐率：1.57req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.180932s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.130857s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.280084s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:36:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.112973s] [吞吐率：0.90req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.380282s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.299693s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.390553s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:41:27+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.756696s] [吞吐率：1.32req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127471s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.149435s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.433606s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:43:00+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.353773s] [吞吐率：2.83req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129016s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.084938s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.086671s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:43:01+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.457088s] [吞吐率：2.19req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.187283s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.117247s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.105367s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:48:49+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.883561s] [吞吐率：1.13req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.391491s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.152324s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.283090s ]
+---------------------------------------------------------------
+
+[2020-10-21T09:48:50+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.999534s] [吞吐率：1.00req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.294500s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.154364s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.505668s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:08:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.432604s] [吞吐率：0.70req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.457389s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.561162s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.361448s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:08:14+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.629469s] [吞吐率：0.38req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.790398s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.645592s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:1.154406s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:08:18+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：2.371617s] [吞吐率：0.42req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.896976s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:1.123071s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.307635s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:08:21+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.509048s] [吞吐率：0.40req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.845128s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.310553s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.313373s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:08:33+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.889278s] [吞吐率：0.53req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.750900s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.549914s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.540923s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:08:36+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.476245s] [吞吐率：0.40req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.689118s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.522687s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:1.220505s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:09:58+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.929854s] [吞吐率：0.52req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.724347s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.731494s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.428669s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:09:59+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.745982s] [吞吐率：1.34req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.405765s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.155341s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.141271s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:12:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.321801s] [吞吐率：0.76req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.708703s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.280311s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.279059s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:12:16+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.365904s] [吞吐率：0.73req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.420288s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.320354s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.579930s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:12:22+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：6.021914s] [吞吐率：0.17req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.509094s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.619214s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:4.851121s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:12:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.114234s] [吞吐率：0.90req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.497918s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.289908s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.280164s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:13:43+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.640011s] [吞吐率：1.56req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134114s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.087830s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.371935s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:13:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.560880s] [吞吐率：1.78req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.229703s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.144607s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.140408s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:13:57+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.068624s] [吞吐率：0.94req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.500885s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.438483s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.084824s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:13:58+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.044605s] [吞吐率：0.96req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.746587s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.125992s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.130666s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:14:15+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.824856s] [吞吐率：1.21req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533531s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.090773s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.130820s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:14:18+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.888129s] [吞吐率：1.13req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148081s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.576171s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.119099s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:14:20+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.580805s] [吞吐率：0.39req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.627867s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.310598s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.599605s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:14:56+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.516692s] [吞吐率：1.94req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.193966s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.137677s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.138395s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:14:57+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.955225s] [吞吐率：1.05req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.623984s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.143413s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.141423s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:27+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.551994s] [吞吐率：1.81req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.215018s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.147489s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.141420s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:37+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.511661s] [吞吐率：1.95req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200549s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.135694s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.131700s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:38+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.911946s] [吞吐率：1.10req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.578589s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.142579s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.142483s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.888842s] [吞吐率：0.53req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.483670s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:1.063640s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.280251s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:49+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.511397s] [吞吐率：0.66req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.859239s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.280377s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.329934s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:51+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.908760s] [吞吐率：0.52req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.997554s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.280294s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.589856s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:15:53+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.679239s] [吞吐率：0.60req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.717344s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.600737s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.320077s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:24+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.518843s] [吞吐率：1.93req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.260121s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.111301s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.098488s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:24+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.536388s] [吞吐率：1.86req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.233758s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.118065s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.136611s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.670106s] [吞吐率：1.49req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.236051s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.172796s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.217721s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:33+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.784442s] [吞吐率：1.27req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530150s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.100455s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.113285s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:42+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.290208s] [吞吐率：0.44req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.064889s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.279455s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.900146s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:44+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.392791s] [吞吐率：0.72req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.491066s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.280187s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.570207s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:16:46+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.846690s] [吞吐率：0.54req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.196850s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.320365s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.288843s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:17:08+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.919380s] [吞吐率：1.09req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.212792s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.519622s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.140504s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:17:10+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.370893s] [吞吐率：2.70req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127278s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.086848s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.114225s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:17:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.778849s] [吞吐率：1.28req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521768s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.107512s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.108138s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:17:54+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.637151s] [吞吐率：0.61req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.653205s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.330109s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.610310s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:18:00+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.245530s] [吞吐率：0.80req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.301686s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.279344s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.619910s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:18:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.359018s] [吞吐率：2.79req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141935s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.087945s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.085734s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:18:12+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.573843s] [吞吐率：1.74req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.243107s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.113232s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.172700s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:42:00+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.335569s] [吞吐率：0.75req/s] [内存消耗：3,178.84kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary30oUJ5r26qsSBW13',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.335220s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.298796s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.650255s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:44:10+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.397291s] [吞吐率：2.52req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134533s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.126916s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.085701s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:44:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.715143s] [吞吐率：1.40req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.494769s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.086788s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.087797s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:44:25+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：1.186279s] [吞吐率：0.84req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.193971s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.122965s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.816397s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:44:34+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.889103s] [吞吐率：0.53req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.934231s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.370238s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.539960s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:44:50+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.778210s] [吞吐率：1.29req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.551151s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.098549s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.082973s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:44:56+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.635048s] [吞吐率：0.61req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.520280s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.790161s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.279219s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:50:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.136426s] [吞吐率：0.88req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.676518s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.160294s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.175957s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:51:35+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：5.464771s] [吞吐率：0.18req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:4.830718s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.112264s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.468638s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:51:41+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=
+[运行时间：0.385777s] [吞吐率：2.59req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.142774s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.088023s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.110124s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:51:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=
+[运行时间：2.845791s] [吞吐率：0.35req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.864262s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.699445s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.239093s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:51:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.843935s] [吞吐率：0.35req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.860463s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.699430s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.240008s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:52:30+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=
+[运行时间：0.827434s] [吞吐率：1.21req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.597136s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.092727s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.089631s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:52:41+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：2.918274s] [吞吐率：0.34req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.505131s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:2.069513s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.299746s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:52:48+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：2.277992s] [吞吐率：0.44req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.353909s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.689502s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.191062s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:52:48+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：2.282264s] [吞吐率：0.44req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.352305s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.689551s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.191040s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:53:37+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：2.009919s] [吞吐率：0.50req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.951274s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.729583s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.279154s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:53:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.431112s] [吞吐率：0.70req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.439061s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.249998s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.700203s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:53:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：1.434278s] [吞吐率：0.70req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.441845s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.249966s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.700203s ]
+---------------------------------------------------------------
+
+[2020-10-21T10:54:43+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.648797s] [吞吐率：1.54req/s] [内存消耗：3,178.84kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysNLg3HzTrAKvbZ5M',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.436354s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.086793s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.082873s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:06:09+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.035299s] [吞吐率：0.97req/s] [内存消耗：3,178.84kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAlJ6c5cTuexQrQTw',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.428942s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.279265s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.280225s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:25:10+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.614115s] [吞吐率：1.63req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.369322s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.098701s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.094395s ]
+ RunTime:0.093600s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:25:16+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：2.536173s] [吞吐率：0.39req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.428602s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.750114s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.309451s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:26:24+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：0.908456s] [吞吐率：1.10req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.334648s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.250143s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.279987s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:26:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.978134s] [吞吐率：1.02req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.482933s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.219719s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.230098s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:28:19+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：1.712886s] [吞吐率：0.58req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.605819s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.440529s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.599544s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:28:21+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：1.280137s] [吞吐率：0.78req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.419835s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.529406s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.280135s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:28:21+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.260656s] [吞吐率：0.79req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.394537s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.529329s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.280106s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:28:25+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：1.843128s] [吞吐率：0.54req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.886613s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.320302s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.589857s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:28:27+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：1.409749s] [吞吐率：0.71req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.464471s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.290095s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.609302s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:29:23+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：1.899600s] [吞吐率：0.53req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.788554s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.580030s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.481598s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:29:23+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：1.883323s] [吞吐率：0.53req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.776959s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.580072s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.481598s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:46+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.498002s] [吞吐率：2.01req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.241044s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.106405s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.096797s ]
+unTime:0.096369s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：0.554816s] [吞吐率：1.80req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.214599s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.152457s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.142219s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.515938s] [吞吐率：1.94req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.170660s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.179715s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.117922s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:48+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.708899s] [吞吐率：1.41req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.482326s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.092803s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.091681s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:49+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=54
+[运行时间：0.792885s] [吞吐率：1.26req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.202190s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.443412s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.096574s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:49+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select
+[运行时间：0.787722s] [吞吐率：1.27req/s] [内存消耗：3,178.47kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200483s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.442534s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.096546s ]
+---------------------------------------------------------------
+
+[2020-10-21T11:42:53+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_select?id=1
+[运行时间：0.344984s] [吞吐率：2.90req/s] [内存消耗：3,179.06kb] [文件加载：83]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'version' => 'JD',
+  'method' => 'wx_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130305s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.085877s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` [ RunTime:0.081952s ]

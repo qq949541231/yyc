@@ -1,0 +1,2252 @@
+---------------------------------------------------------------
+
+[2020-11-01T19:45:37+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.743238s] [吞吐率：1.35req/s] [内存消耗：4,450.14kb] [文件加载：187]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ error ] [16384]The "Symfony\Component\Cache\Simple\FilesystemCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\FilesystemAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\FilesystemCache.php:21]
+[ error ] [16384]The "Symfony\Component\Cache\Simple\AbstractCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\AbstractAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\AbstractCache.php:23]
+[ error ] [8]未定义数组索引: openid[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:554]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:36+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.075271s] [吞吐率：13.29req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:50+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.061818s] [吞吐率：16.18req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:51+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.063098s] [吞吐率：15.85req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:51+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.061922s] [吞吐率：16.15req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.062907s] [吞吐率：15.90req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.062158s] [吞吐率：16.09req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.062180s] [吞吐率：16.08req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.061564s] [吞吐率：16.24req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.061686s] [吞吐率：16.21req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:53+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.061188s] [吞吐率：16.34req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:14:53+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.062232s] [吞吐率：16.07req/s] [内存消耗：4,261.52kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\thinkphp\library\think\Response.php:406]
+---------------------------------------------------------------
+
+[2020-11-01T20:15:39+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.064006s] [吞吐率：15.62req/s] [内存消耗：4,261.59kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:560]
+---------------------------------------------------------------
+
+[2020-11-01T20:15:53+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.356104s] [吞吐率：2.81req/s] [内存消耗：4,156.52kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127658s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.087009s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_user` WHERE  `openid` = '123123' [ RunTime:0.081773s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:16:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.071826s] [吞吐率：13.92req/s] [内存消耗：4,261.59kb] [文件加载：117]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:560]
+---------------------------------------------------------------
+
+[2020-11-01T20:17:40+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.374063s] [吞吐率：2.67req/s] [内存消耗：4,095.02kb] [文件加载：103]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121901s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.096698s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` WHERE  `openid` = '123123' [ RunTime:0.080771s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:17:41+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.358777s] [吞吐率：2.79req/s] [内存消耗：4,095.02kb] [文件加载：103]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.118338s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.088751s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` WHERE  `openid` = '123123' [ RunTime:0.089524s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:17:52+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.357883s] [吞吐率：2.79req/s] [内存消耗：4,094.96kb] [文件加载：103]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128957s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.080914s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` WHERE  `openid` = '12312' [ RunTime:0.091640s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:19:16+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.342885s] [吞吐率：2.92req/s] [内存消耗：4,095.21kb] [文件加载：103]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123770s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.082334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` WHERE  `openid` = '123123' [ RunTime:0.083209s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:19:23+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.416616s] [吞吐率：2.40req/s] [内存消耗：4,095.15kb] [文件加载：103]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136110s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.096483s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` WHERE  `openid` = '12313' [ RunTime:0.120826s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:26:06+08:00] ::1 POST localhost/entrance/JD/no/admin_select
+[运行时间：0.589075s] [吞吐率：1.70req/s] [内存消耗：4,171.88kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'admin_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'admin',
+  'version' => 'JD',
+  'method' => 'admin_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117747s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.099729s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` LIMIT 0,5 [ RunTime:0.103468s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_admin` [ RunTime:0.182700s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:26:10+08:00] ::1 POST localhost/entrance/JD/no/admin_select
+[运行时间：0.507102s] [吞吐率：1.97req/s] [内存消耗：4,171.88kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'admin_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'admin',
+  'version' => 'JD',
+  'method' => 'admin_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.118415s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.079068s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` LIMIT 0,5 [ RunTime:0.079863s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_admin` [ RunTime:0.142392s ]
+---------------------------------------------------------------
+
+[2020-11-01T20:31:26+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.364637s] [吞吐率：2.74req/s] [内存消耗：4,442.80kb] [文件加载：187]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ error ] [16384]The "Symfony\Component\Cache\Simple\FilesystemCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\FilesystemAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\FilesystemCache.php:21]
+[ error ] [16384]The "Symfony\Component\Cache\Simple\AbstractCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\AbstractAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\AbstractCache.php:23]
+[ error ] [8]未定义数组索引: openid[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:554]
+---------------------------------------------------------------
+
+[2020-11-01T20:31:28+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.402453s] [吞吐率：2.48req/s] [内存消耗：4,442.80kb] [文件加载：187]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ error ] [16384]The "Symfony\Component\Cache\Simple\FilesystemCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\FilesystemAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\FilesystemCache.php:21]
+[ error ] [16384]The "Symfony\Component\Cache\Simple\AbstractCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\AbstractAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\AbstractCache.php:23]
+[ error ] [8]未定义数组索引: openid[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:554]
+---------------------------------------------------------------
+
+[2020-11-01T20:31:40+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.358662s] [吞吐率：2.79req/s] [内存消耗：4,442.55kb] [文件加载：187]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ error ] [16384]The "Symfony\Component\Cache\Simple\FilesystemCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\FilesystemAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\FilesystemCache.php:21]
+[ error ] [16384]The "Symfony\Component\Cache\Simple\AbstractCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\AbstractAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\AbstractCache.php:23]
+[ error ] [8]未定义数组索引: openid[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:554]
+---------------------------------------------------------------
+
+[2020-11-01T20:32:15+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/xlogin
+[运行时间：0.344763s] [吞吐率：2.90req/s] [内存消耗：4,095.31kb] [文件加载：103]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'xlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'xlogin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124781s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.083993s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` WHERE  `openid` = '123123' [ RunTime:0.079848s ]
+---------------------------------------------------------------
+
+[2020-11-01T21:30:34+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.061591s] [吞吐率：16.24req/s] [内存消耗：2,869.95kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:42:57+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.065834s] [吞吐率：15.19req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:43:00+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.047753s] [吞吐率：20.94req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:43:24+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.047502s] [吞吐率：21.05req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:19+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046684s] [吞吐率：21.42req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:30+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046753s] [吞吐率：21.39req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:30+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.048990s] [吞吐率：20.41req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:30+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046759s] [吞吐率：21.39req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:30+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.047725s] [吞吐率：20.95req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046378s] [吞吐率：21.56req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046237s] [吞吐率：21.63req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046837s] [吞吐率：21.35req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046720s] [吞吐率：21.40req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046793s] [吞吐率：21.37req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046396s] [吞吐率：21.55req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.045781s] [吞吐率：21.84req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046562s] [吞吐率：21.48req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046731s] [吞吐率：21.40req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046609s] [吞吐率：21.46req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.047248s] [吞吐率：21.16req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:32+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.047710s] [吞吐率：20.96req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:33+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.049754s] [吞吐率：20.10req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:33+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046913s] [吞吐率：21.32req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:33+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.046348s] [吞吐率：21.58req/s] [内存消耗：2,870.34kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [8]未定义数组索引: wx_login[D:\think_php\application\entrance\base\Method.php:41]
+---------------------------------------------------------------
+
+[2020-11-01T21:44:51+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.679923s] [吞吐率：1.47req/s] [内存消耗：4,387.63kb] [文件加载：185]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [16384]The "Symfony\Component\Cache\Simple\FilesystemCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\FilesystemAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\FilesystemCache.php:21]
+[ error ] [16384]The "Symfony\Component\Cache\Simple\AbstractCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\AbstractAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\AbstractCache.php:23]
+---------------------------------------------------------------
+
+[2020-11-01T21:45:47+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/wx_login
+[运行时间：0.401309s] [吞吐率：2.49req/s] [内存消耗：4,445.66kb] [文件加载：187]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'wx_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'wx_login',
+)
+[ error ] [16384]The "Symfony\Component\Cache\Simple\FilesystemCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\FilesystemAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\FilesystemCache.php:21]
+[ error ] [16384]The "Symfony\Component\Cache\Simple\AbstractCache" class is deprecated since Symfony 4.3, use "Symfony\Component\Cache\Adapter\AbstractAdapter" and type-hint for "Symfony\Contracts\Cache\CacheInterface" instead.[D:\think_php\vendor\symfony\cache\Simple\AbstractCache.php:23]
+[ error ] [8]未定义数组索引: openid[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:560]

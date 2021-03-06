@@ -1,0 +1,1372 @@
+---------------------------------------------------------------
+
+[2020-11-19T12:52:56+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=9975GVdbs0cOPZ
+[运行时间：3.104766s] [吞吐率：0.32req/s] [内存消耗：5,098.38kb] [文件加载：170]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '9975GVdbs0cOPZ',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.215843s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.102431s ]
+[ sql ] [ SQL ] SELECT `total_price` FROM `yyc_order` WHERE  `out_trade_no` = '9975GVdbs0cOPZ' LIMIT 1 [ RunTime:0.102090s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = '9975GVdbs0cOPZ' LIMIT 1 [ RunTime:0.102421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.096612s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.083832s ]
+---------------------------------------------------------------
+
+[2020-11-19T12:53:57+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=zICceoUw7cdpPG
+[运行时间：1.956160s] [吞吐率：0.51req/s] [内存消耗：5,100.38kb] [文件加载：170]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'zICceoUw7cdpPG',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.150098s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.928861s ]
+[ sql ] [ SQL ] SELECT `total_price` FROM `yyc_order` WHERE  `out_trade_no` = 'zICceoUw7cdpPG' LIMIT 1 [ RunTime:0.093503s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = 'zICceoUw7cdpPG' LIMIT 1 [ RunTime:0.093512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.088400s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.080005s ]
+---------------------------------------------------------------
+
+[2020-11-19T12:54:11+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_create
+[运行时间：0.242558s] [吞吐率：4.12req/s] [内存消耗：3,379.16kb] [文件加载：112]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_create',
+)
+[ error ] [8192]Non-static method app\entrance\model\Random::random() should not be called statically[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:257]
+---------------------------------------------------------------
+
+[2020-11-19T12:55:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_create
+[运行时间：2.617956s] [吞吐率：0.38req/s] [内存消耗：4,119.80kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_create',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.683220s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_ticket` [ RunTime:0.850752s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_ticket` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.090484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.625658s ]
+[ sql ] [ SQL ] INSERT INTO `yyc_order` (`out_trade_no` , `count` , `price` , `total_price` , `create_time` , `pay_status` , `type` , `ticket_id` , `user_id`) VALUES ('xUiL1G6VlhLRf4' , NULL , NULL , 0 , '2020-11-19 12:55:30' , 0 , 1 , NULL , NULL) [ RunTime:0.148217s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_order` WHERE  `out_trade_no` = 'xUiL1G6VlhLRf4' LIMIT 1 [ RunTime:0.150657s ]
+---------------------------------------------------------------
+
+[2020-11-19T12:55:41+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_create
+[运行时间：0.048366s] [吞吐率：20.68req/s] [内存消耗：3,379.94kb] [文件加载：112]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_create',
+)
+[ error ] [8192]Non-static method app\entrance\model\Random::random() should not be called statically[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:259]
+---------------------------------------------------------------
+
+[2020-11-19T12:56:03+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_create
+[运行时间：0.727672s] [吞吐率：1.37req/s] [内存消耗：4,119.80kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_create',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146194s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_ticket` [ RunTime:0.086872s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_ticket` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.101436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.102001s ]
+[ sql ] [ SQL ] INSERT INTO `yyc_order` (`out_trade_no` , `count` , `price` , `total_price` , `create_time` , `pay_status` , `type` , `ticket_id` , `user_id`) VALUES ('HaMb5kdxKkZxRT' , NULL , NULL , 0 , '2020-11-19 12:56:02' , 0 , 1 , NULL , NULL) [ RunTime:0.136406s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_order` WHERE  `out_trade_no` = 'HaMb5kdxKkZxRT' LIMIT 1 [ RunTime:0.104391s ]
+---------------------------------------------------------------
+
+[2020-11-19T20:07:16+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.599384s] [吞吐率：1.67req/s] [内存消耗：4,506.02kb] [文件加载：180]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyME8hTQ1GU45PbdG',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [400]Client error: `POST https://api.mch.weixin.qq.com/secapi/pay/refund` resulted in a `400 Bad Request` response:
+<html>
+<head><title>400 No required SSL certificate was sent</title></head>
+<body bgcolor="white">
+<center><h1>400 Ba (truncated...)
+[D:\think_php\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113]
+---------------------------------------------------------------
+
+[2020-11-19T20:30:25+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.098175s] [吞吐率：10.19req/s] [内存消耗：4,168.13kb] [文件加载：159]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryANW3QxSHB1oQsBQ8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]类型错误: Argument 1 passed to EasyWeChat\Payment\Refund\Client::byOutTradeNumber() must be of the type string, array given, called in D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php on line 574[D:\think_php\vendor\overtrue\wechat\src\Payment\Refund\Client.php:31]
+---------------------------------------------------------------
+
+[2020-11-19T20:31:16+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.065739s] [吞吐率：15.21req/s] [内存消耗：4,168.13kb] [文件加载：159]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfPX8lcHiHwuchwwF',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]类型错误: Argument 1 passed to EasyWeChat\Payment\Refund\Client::byOutTradeNumber() must be of the type string, array given, called in D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php on line 574[D:\think_php\vendor\overtrue\wechat\src\Payment\Refund\Client.php:31]
+---------------------------------------------------------------
+
+[2020-11-19T20:33:49+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.379208s] [吞吐率：0.73req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryhMjYh4TeYs6cjSvU',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:34:03+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.654790s] [吞吐率：1.53req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryctwTJpwkdZX06PZf',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:34:28+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.991567s] [吞吐率：1.01req/s] [内存消耗：4,458.17kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryO2MqaVzViLhDj6mE',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:35:30+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.801749s] [吞吐率：1.25req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfzOOAqmblohP1krI',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:36:06+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.888739s] [吞吐率：1.13req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary97GrLhai4v3I45YM',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:42:58+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.464943s] [吞吐率：0.68req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryc7WZ03v6rck3IFjP',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:43:19+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.128702s] [吞吐率：0.89req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZtLHpuOT3vnC3XWc',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:43:51+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.811993s] [吞吐率：1.23req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGFUi9HvDa79Sufje',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:44:24+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.666769s] [吞吐率：0.60req/s] [内存消耗：4,458.42kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAkqzAoEqUYqYftxt',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:46:02+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.368193s] [吞吐率：0.73req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu2KFtvxFER2oAGjm',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:46:43+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.245787s] [吞吐率：0.80req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjFUbgN8F50ffAOWC',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:46:53+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.568552s] [吞吐率：1.76req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOwywN1MVPEX1GB8C',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:47:10+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.204625s] [吞吐率：0.83req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarys6ks9dx0sUbzRI9N',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:48:10+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.142992s] [吞吐率：0.87req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryL0if1WiEfBsL5vvV',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:48:44+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.541252s] [吞吐率：1.85req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvo7pu0WKDNeOp0dq',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:48:57+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.191533s] [吞吐率：0.84req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryE814Tqo06vLZTwCc',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:49:10+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：0.792810s] [吞吐率：1.26req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryddnJBHOCs1Y8qCVi',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:49:22+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.243520s] [吞吐率：0.80req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary663gS4VaBlu5jcAG',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:49:48+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.131158s] [吞吐率：0.88req/s] [内存消耗：4,458.43kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9kNVZAqmXeDr4jGS',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:51:34+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.277871s] [吞吐率：0.78req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFvs2O2dG3uTaIPrS',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T20:52:05+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.171348s] [吞吐率：0.85req/s] [内存消耗：4,458.41kb] [文件加载：177]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVfqnkX3u8LAfeoJ4',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+[ error ] [0]variable type error： array[D:\think_php\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-11-19T21:10:49+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund
+[运行时间：1.255344s] [吞吐率：0.80req/s] [内存消耗：4,161.24kb] [文件加载：165]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywe3bvuWKW6YQUxzx',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_refund',
+)
+---------------------------------------------------------------
+
+[2020-11-19T21:13:39+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_refund?out_trade_no=mRrhehmKxWykut
+[运行时间：1.300536s] [吞吐率：0.77req/s] [内存消耗：4,162.09kb] [文件加载：165]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_refund',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryux44xCaPxKDONbYz',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'mRrhehmKxWykut',
+  'version' => 'JD',
+  'method' => 'order_refund',
+)

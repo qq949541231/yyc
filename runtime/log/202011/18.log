@@ -1,0 +1,1356 @@
+---------------------------------------------------------------
+
+[2020-11-18T12:52:27+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_notify?out_trade_no=6jBBPcX17QTbHT&return_code=SUCCESS&result_code=SUCCESS
+[运行时间：0.535195s] [吞吐率：1.87req/s] [内存消耗：4,059.05kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuLA3aUC3hiYOWARV',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '6jBBPcX17QTbHT',
+  'return_code' => 'SUCCESS',
+  'result_code' => 'SUCCESS',
+  'version' => 'JD',
+  'method' => 'order_notify',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.192521s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.100143s ]
+[ sql ] [ SQL ] UPDATE `yyc_order`  SET `pay_status` = 1 , `code` = 'eypcUhTjTJWOB9' , `end_time` = '2020-11-19 12:52:27' , `pay_time` = '2020-11-18 12:52:27' , `effective_time` = 24  WHERE  `out_trade_no` = '6jBBPcX17QTbHT' [ RunTime:0.161957s ]
+---------------------------------------------------------------
+
+[2020-11-18T12:54:16+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_notify?out_trade_no=mwbI8iSitev3wA&return_code=SUCCESS&result_code=SUCCESS
+[运行时间：0.431424s] [吞吐率：2.32req/s] [内存消耗：4,075.23kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKj8MAKkIGcB5kYBK',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'mwbI8iSitev3wA',
+  'return_code' => 'SUCCESS',
+  'result_code' => 'SUCCESS',
+  'version' => 'JD',
+  'method' => 'order_notify',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.156037s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.090651s ]
+[ sql ] [ SQL ] UPDATE `yyc_order`  SET `pay_status` = 1 , `code` = 'N5iAVFXRfNsnNJ' , `end_time` = '2020-11-19 12:54:16' , `pay_time` = '2020-11-18 12:54:16' , `effective_time` = 24  WHERE  `out_trade_no` = 'mwbI8iSitev3wA' [ RunTime:0.136446s ]
+---------------------------------------------------------------
+
+[2020-11-18T12:58:22+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_notify?out_trade_no=mwbI8iSitev3wA&return_code=SUCCESS&result_code=
+[运行时间：0.054838s] [吞吐率：18.24req/s] [内存消耗：4,011.45kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryx7giFLOcNhXsE86V',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'mwbI8iSitev3wA',
+  'return_code' => 'SUCCESS',
+  'result_code' => '',
+  'version' => 'JD',
+  'method' => 'order_notify',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2020-11-18T12:58:30+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_notify?out_trade_no=mwbI8iSitev3wA&return_code=&result_code=SUCCESS
+[运行时间：0.048544s] [吞吐率：20.60req/s] [内存消耗：4,011.45kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylNo0KdH4udBxaQKp',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'mwbI8iSitev3wA',
+  'return_code' => '',
+  'result_code' => 'SUCCESS',
+  'version' => 'JD',
+  'method' => 'order_notify',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2020-11-18T13:07:34+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=RDj4DSkE9K6lDh
+[运行时间：0.058083s] [吞吐率：17.22req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'RDj4DSkE9K6lDh',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:07:43+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=KteoNhz5GYTk1O
+[运行时间：0.044747s] [吞吐率：22.35req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'KteoNhz5GYTk1O',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:08:58+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=OJg1bS537rfrmg
+[运行时间：0.042108s] [吞吐率：23.75req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'OJg1bS537rfrmg',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:10:08+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=OJg1bS537rfrmg
+[运行时间：0.055252s] [吞吐率：18.10req/s] [内存消耗：2,869.95kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'OJg1bS537rfrmg',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:10:09+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=OJg1bS537rfrmg
+[运行时间：0.043525s] [吞吐率：22.98req/s] [内存消耗：2,869.95kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'OJg1bS537rfrmg',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:10:10+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=OJg1bS537rfrmg
+[运行时间：0.043058s] [吞吐率：23.22req/s] [内存消耗：2,869.95kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'OJg1bS537rfrmg',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:10:35+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=LNQxQ5AGnrn3zK
+[运行时间：0.042800s] [吞吐率：23.36req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'LNQxQ5AGnrn3zK',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:10:46+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=6vt5OpuuDUXrbD
+[运行时间：0.042000s] [吞吐率：23.81req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '6vt5OpuuDUXrbD',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:11:07+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=yRPUb4OS7YmvMx
+[运行时间：0.042792s] [吞吐率：23.37req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'yRPUb4OS7YmvMx',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:11:31+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：0.042377s] [吞吐率：23.60req/s] [内存消耗：2,869.55kb] [文件加载：97]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:12:00+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：0.043950s] [吞吐率：22.75req/s] [内存消耗：2,869.99kb] [文件加载：98]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryafg6ZHXAO0IXm0ll',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ')'[D:\think_php\application\entrance\controller\JD\miniprogrem\WxHome.php:346]
+---------------------------------------------------------------
+
+[2020-11-18T13:12:32+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：1.136181s] [吞吐率：0.88req/s] [内存消耗：5,123.48kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2d9FrHyVsNmGE36N',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133402s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.083974s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.086802s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.095423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.139198s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 60 LIMIT 1 [ RunTime:0.083781s ]
+---------------------------------------------------------------
+
+[2020-11-18T13:23:19+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：1.004546s] [吞吐率：1.00req/s] [内存消耗：5,123.48kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPQ5zKNFPQjDxYAiu',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125567s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.093760s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.109105s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.080935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.083515s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 60 LIMIT 1 [ RunTime:0.087658s ]
+---------------------------------------------------------------
+
+[2020-11-18T13:23:40+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：0.977158s] [吞吐率：1.02req/s] [内存消耗：5,123.48kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCrDqLejX41Z3Bekq',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134850s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.085965s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.081718s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.090711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.087375s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 60 LIMIT 1 [ RunTime:0.096570s ]
+---------------------------------------------------------------
+
+[2020-11-18T13:23:46+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：1.002096s] [吞吐率：1.00req/s] [内存消耗：5,123.48kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPjMx6OBvmFdnWyOA',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140627s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.089907s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.092477s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.110148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.092329s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 60 LIMIT 1 [ RunTime:0.123877s ]
+---------------------------------------------------------------
+
+[2020-11-18T13:25:32+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=gBC59D7Dpj6wq0
+[运行时间：1.048158s] [吞吐率：0.95req/s] [内存消耗：5,123.48kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysAPF4ER2xNBRyjcX',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => 'gBC59D7Dpj6wq0',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.155345s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.117277s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.109083s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = 'gBC59D7Dpj6wq0' LIMIT 1 [ RunTime:0.082807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.085411s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 60 LIMIT 1 [ RunTime:0.083887s ]
+---------------------------------------------------------------
+
+[2020-11-18T13:53:19+08:00] 127.0.0.1 GET 4.url.cn/zc/chs/js/10079/location_chs.js
+[运行时间：0.044015s] [吞吐率：22.72req/s] [内存消耗：2,286.50kb] [文件加载：86]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-11-18T14:49:46+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_notify
+[运行时间：2.678480s] [吞吐率：0.37req/s] [内存消耗：4,072.46kb] [文件加载：105]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywTecbDOylBjlIOH1',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_notify',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140299s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.935816s ]
+[ sql ] [ SQL ] UPDATE `yyc_order`  SET `pay_status` = 1 , `code` = 'WfE5Jyf48Qubis' , `end_time` = '2020-11-19 14:49:45' , `pay_time` = '2020-11-18 14:49:45' , `effective_time` = 24  WHERE  `out_trade_no` = 'a8ZdP9ec5B9UJ7' [ RunTime:0.146163s ]
+---------------------------------------------------------------
+
+[2020-11-18T14:54:36+08:00] 127.0.0.1 GET www.tt.com/entrance/JD/no/order_notify
+[运行时间：9.183252s] [吞吐率：0.11req/s] [内存消耗：4,072.27kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_e325e60ca4cd358f2b424f5aecb8021a=1602761372',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'JD',
+  'method' => 'order_notify',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.163799s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:8.811770s ]
+[ sql ] [ SQL ] UPDATE `yyc_order`  SET `pay_status` = 1 , `code` = '9oR4Asrcq7lmns' , `end_time` = '2020-11-19 14:54:27' , `pay_time` = '2020-11-18 14:54:27' , `effective_time` = 24  WHERE  `out_trade_no` = 'a8ZdP9ec5B9UJ7' [ RunTime:0.138392s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:13:37+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=9975GVdbs0cOPZ
+[运行时间：3.459975s] [吞吐率：0.29req/s] [内存消耗：5,104.90kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuX2zk9LMU9mLYAGA',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '9975GVdbs0cOPZ',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126236s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.095329s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = '9975GVdbs0cOPZ' LIMIT 1 [ RunTime:0.090331s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = '9975GVdbs0cOPZ' LIMIT 1 [ RunTime:0.089629s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.081308s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.136628s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:13:59+08:00] 127.0.0.1 POST www.tt.com/entrance/JD/no/order_pay?out_trade_no=7TtfSjgU5OSd2W
+[运行时间：0.944195s] [吞吐率：1.06req/s] [内存消耗：5,123.41kb] [文件加载：171]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'ApiPOST Runtime +https://www.apipost.cn',
+  'origin' => 'http://www.tt.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary65cQsMTfmOB6TO42',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'www.tt.com',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '7TtfSjgU5OSd2W',
+  'version' => 'JD',
+  'method' => 'order_pay',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.145524s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:0.101584s ]
+[ sql ] [ SQL ] SELECT `price` FROM `yyc_order` WHERE  `out_trade_no` = '7TtfSjgU5OSd2W' LIMIT 1 [ RunTime:0.088664s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `yyc_order` WHERE  `out_trade_no` = '7TtfSjgU5OSd2W' LIMIT 1 [ RunTime:0.080733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.101173s ]
+[ sql ] [ SQL ] SELECT `openid` FROM `yyc_user` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.079943s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:52:18+08:00] ::1 POST localhost/entrance/JD/no/login
+[运行时间：2.323316s] [吞吐率：0.43req/s] [内存消耗：4,066.94kb] [文件加载：104]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'version' => 'JD',
+  'method' => 'login',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.172372s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.301694s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` WHERE  `username` = 'admin'  AND `password` = '123123' LIMIT 1 [ RunTime:0.745060s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:52:22+08:00] ::1 POST localhost/entrance/JD/no/admin_select
+[运行时间：1.904473s] [吞吐率：0.53req/s] [内存消耗：4,123.49kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'admin_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'admin',
+  'version' => 'JD',
+  'method' => 'admin_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.630548s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_admin` [ RunTime:0.345598s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_admin` LIMIT 0,5 [ RunTime:0.175386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_admin` [ RunTime:0.642822s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:52:23+08:00] ::1 POST localhost/entrance/JD/no/user_select
+[运行时间：0.964063s] [吞吐率：1.04req/s] [内存消耗：4,119.29kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'user_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'user',
+  'version' => 'JD',
+  'method' => 'user_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203959s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_user` [ RunTime:0.112358s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_user` LIMIT 0,5 [ RunTime:0.231101s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_user` [ RunTime:0.315051s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:52:26+08:00] ::1 POST localhost/entrance/JD/no/ticket_select
+[运行时间：1.982430s] [吞吐率：0.50req/s] [内存消耗：4,119.38kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'ticket_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'ticket',
+  'version' => 'JD',
+  'method' => 'ticket_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.087586s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_ticket` [ RunTime:0.342711s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_ticket` LIMIT 0,5 [ RunTime:0.134655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_ticket` [ RunTime:0.309143s ]
+---------------------------------------------------------------
+
+[2020-11-18T20:52:43+08:00] ::1 POST localhost/entrance/JD/no/order_select
+[运行时间：12.319300s] [吞吐率：0.08req/s] [内存消耗：4,125.87kb] [文件加载：106]
+[ info ] [ LANG ] D:\think_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'entrance/<version>/no/<method>',
+  'route' => 'entrance/Entrance/noentrance',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Credentials' => 'true',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+      'Access-Control-Allow-Origin' => '*',
+    ),
+  ),
+  'var' => 
+  array (
+    'version' => 'JD',
+    'method' => 'order_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:9528/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'http://localhost:9528',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '5',
+  'keyword' => '',
+  'tableName' => 'admin',
+  'version' => 'JD',
+  'method' => 'order_select',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:7.460715s ] mysql:host=106.54.90.60;port=3306;dbname=swm3_jiedx_club;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yyc_order` [ RunTime:4.184108s ]
+[ sql ] [ SQL ] SELECT * FROM `yyc_order` LIMIT 0,5 [ RunTime:0.110892s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yyc_order` [ RunTime:0.480366s ]
