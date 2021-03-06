@@ -1,0 +1,3 @@
+[2020-11-14 10:00:32] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"variable type error： array"} []
+[2020-11-14 10:00:50] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"Object of class EasyWeChat\\Payment\\Application could not be converted to string"} []
+[2020-11-14 10:01:38] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"variable type error： array"} []

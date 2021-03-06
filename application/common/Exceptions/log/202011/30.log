@@ -1,0 +1,7 @@
+[2020-11-30 19:29:29] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"variable type error： array"} []
+[2020-11-30 19:44:49] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"variable type error： array"} []
+[2020-11-30 19:48:12] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"variable type error： array"} []
+[2020-11-30 19:49:00] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"Undefined index: id"} []
+[2020-11-30 19:51:38] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)"} []
+[2020-11-30 19:51:50] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"Undefined property: think\\model\\Collection::$id"} []
+[2020-11-30 20:21:27] Eect.WARNING: 其他错误交给系统处理 {"code":1,"message":"PDOStatement::execute(): MySQL server has gone away"} []
